@@ -17,10 +17,8 @@ A shell program who Concatenate all PNG images inside a folder and its subfolder
 ## How to Use  
   
 MAN :
-```
-        
+```    
     SYNOPSIS : css_generator.php  [OPTIONS]. . . assets_folder
-
 
     OPTIONS :        
     -r,--recursiveLook :
@@ -45,3 +43,97 @@ Copyright (©) Christophe Navarro <navarro.christophe@gmail.com>
 ## Screenshots
   
 ![sprite](https://github.com/Crinav/CSS-generator/blob/master/sprite.png)
+
+Stylesheet created :
+```
+.sprite{
+
+    background-image: url("sprite.png");
+
+    background-repeat: no-repeat;
+
+    display: block;
+
+}
+.sprite-Doodler{ 
+
+    width: 225px;
+
+    height: 225px;
+
+    background-position: 0px 0px;
+
+}
+.sprite-affordable-price-225x225{ 
+
+    width: 225px;
+
+    height: 225px;
+
+    background-position: -225px 0px;
+
+}
+.sprite-camera-logo-png-4{ 
+
+    width: 225px;
+
+    height: 225px;
+
+    background-position: -450px 0px;
+
+}
+.sprite-facebook{ 
+
+    width: 225px;
+
+    height: 225px;
+
+    background-position: -675px 0px;
+
+}
+.sprite-insta{ 
+
+    width: 225px;
+
+    height: 225px;
+
+    background-position: -900px 0px;
+
+}
+.sprite-linkedin{ 
+
+    width: 225px;
+
+    height: 225px;
+
+    background-position: -1125px 0px;
+
+}
+.sprite-vimeo{ 
+
+    width: 225px;
+
+    height: 225px;
+
+    background-position: -1350px 0px;
+
+}
+.sprite-whatsapp-logo-vector-29{ 
+
+    width: 225px;
+
+    height: 225px;
+
+    background-position: -1575px 0px;
+
+}
+.sprite-youtube{ 
+
+    width: 225px;
+
+    height: 225px;
+
+    background-position: -1800px 0px;
+
+}
+```
